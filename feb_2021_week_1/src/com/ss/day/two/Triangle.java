@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.ss.day.two;
 
 /**
@@ -16,6 +13,9 @@ public class Triangle implements Shape {
 		this.height = height;
 	}
 
+	/**
+	 * @return area or triangle
+	 */
 	@Override
 	public Double calculateArea() {
 		return (this.height * this.base) * 0.5;

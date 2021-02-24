@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.ss.day.two;
 
 import java.util.Scanner;

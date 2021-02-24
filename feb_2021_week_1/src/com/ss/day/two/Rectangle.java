@@ -14,6 +14,9 @@ public class Rectangle implements Shape {
 		this.width = width;
 	}
 
+	/**
+	 * @return area or rectangle
+	 */
 	@Override
 	public Double calculateArea() {
 		return this.length * this.width;
