@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ss.day1;
+package com.ss.day.one;
 
 import java.util.Scanner;
 
