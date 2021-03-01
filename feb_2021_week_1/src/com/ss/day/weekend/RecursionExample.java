@@ -4,7 +4,7 @@ public class RecursionExample {
 
 	public static void main(String[] args) {
 		// mock data
-		int[] nums = { 1, 2, 4, 8, 1 };
+		int[] nums = { 2, 4, 4, 8};
 
 		if (groupSumClump(0, nums, 14)) {
 			System.out.println("TRUE");
