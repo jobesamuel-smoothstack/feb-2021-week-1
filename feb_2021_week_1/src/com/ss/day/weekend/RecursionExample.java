@@ -2,17 +2,6 @@ package com.ss.day.weekend;
 
 public class RecursionExample {
 
-	public static void main(String[] args) {
-		// mock data
-		int[] nums = { 2, 4, 4, 8};
-
-		if (groupSumClump(0, nums, 14)) {
-			System.out.println("TRUE");
-		} else {
-			System.out.println("FALSE");
-		}
-	}
-
 	/**
 	 * Given an array of ints, is it possible to choose a group of some of the ints,
 	 * such that the group sums to the given target, with this additional
@@ -25,7 +14,7 @@ public class RecursionExample {
 	 * @return
 	 * 
 	 */
-	public static boolean groupSumClump(int start, int[] nums, int target) {
+	public boolean groupSumClump(Integer start, Integer[] nums, Integer target) {
 		// if we have iterated through the array
 		if (start >= nums.length) {
 			// a combination of int in the group were found to equal target
